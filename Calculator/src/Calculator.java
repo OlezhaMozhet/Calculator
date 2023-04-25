@@ -14,7 +14,7 @@ class Roman {
             "XCI", "XCII", "XCIII", "XCIV", "XCV", "XCVI", "XCVII", "XCVIII","XCIX", "C"};
 
     public static boolean isRoman(String val) { //ищем строковое значение,
-        for (int x = 0; x < romanArray.length; x++) { //ищем румынские числа
+        for (int x = 0; x < romanArray.length; x++) { //ищем римские числа
             if (val.equals(romanArray[x])) { // если V=V
                 return true; // идем дальше
             }
