@@ -100,7 +100,7 @@ class Calculator {
             // конвертируем результат операции из арабского в римское
             result = Roman.convertToRoman(arabian);
         } else {
-            //оставляем арбское значение
+            //оставляем арабское значение
             result = String.valueOf(arabian);
         }
         // возвращаем результат
@@ -116,8 +116,8 @@ class Calculator {
         else return null;
     }
     static int calculator(int a, int b, String operation) {
-        if (operation.equals("+")) return a + b; // если опер равняется
-        else if (operation.equals("-")) return a - b; // ещё если опер равняется
+        if (operation.equals("+")) return a + b; // если операция равняется
+        else if (operation.equals("-")) return a - b; // ещё если операция равняется
         else if (operation.equals("*")) return a * b;
         else return a / b;
     }
